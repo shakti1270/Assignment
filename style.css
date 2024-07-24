@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F2D9B4; 
+    padding: 20px;
+    text-align: center;
+}
+
+ nav ul { 
+    list-style: none; 
+      display: flex; 
+    justify-content: space-between; 
+     margin: 10; 
+     padding: 0; 
+   
+ } 
+
+nav li { 
+     margin: 0 10px; 
+
+ } 
+
+ nav a { 
+    text-decoration: none; 
+    color: #333;
+} 
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 50%;
+    height: auto;
+}
+
+.stage {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFEFE0; 
+    padding: 20px;
+}
+
+.stage-item {
+    flex: 1;
+    text-align: center;
+}
+
+.stage-item img {
+    max-width: 50%;
+    height: auto;
+}
